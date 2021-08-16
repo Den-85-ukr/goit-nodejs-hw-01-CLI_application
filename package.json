@@ -1,27 +1,28 @@
 {
-  "name": "goit-nodejs-hw-01-cli-application",
+  "name": "goit-nodejs-hw-01-CLI_application",
   "version": "1.0.0",
   "description": "https://github.com/goitacademy/nodejs-homework/tree/master/homework-01",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Den-85-ukr/goit-nodejs-hw-01-CLI_application.git"
+    "url": "git+https://github.com/Den-85-ukr/goit-nodejs-hw-01-cli-application.git"
   },
   "keywords": [],
   "author": "Denis_Akimov <madden85@ukr.net>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Den-85-ukr/goit-nodejs-hw-01-CLI_application/issues"
+    "url": "https://github.com/Den-85-ukr/goit-nodejs-hw-01-cli-application/issues"
   },
-  "homepage": "https://github.com/Den-85-ukr/goit-nodejs-hw-01-CLI_application#readme",
-  "devDependencies": {
-    "eslint": "^7.28.0",
-    "nodemon": "^2.0.7"
-  },
+  "homepage": "https://github.com/Den-85-ukr/goit-nodejs-hw-01-cli-application#readme",
   "dependencies": {
-    "commander": "^7.2.0"
+    "commander": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
